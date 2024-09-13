@@ -9396,10 +9396,32 @@ textarea.form-control {
       background: #a0f669;
       color: #fff;
       border: 1px solid transparent; }
-
+/* Certifications Section */
+#certifications-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+#certifications-section h1 {
+  font-size: 3em;
+  color: #343a40;
+}
+#certifications-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.resume-wrap {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
 .contact-section .contact-info p a {
   color: #1a1a1a; }
-
+#recruiters-section .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
 .contact-section .box {
   width: 100%;
   display: block;
@@ -9440,7 +9462,6 @@ textarea.form-control {
 
 .contact-section .contact-info p a {
   color: #fff; }
-
 .contact-section .contact-form {
   width: 100%; }
   @media (max-width: 767.98px) {
